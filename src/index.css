@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Full-bleed layout and no caps */
+html, body, #root { height: 100%; }
+body { margin: 0; }
+#root { max-width: none; padding: 0; }

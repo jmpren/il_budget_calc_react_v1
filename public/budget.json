@@ -1,0 +1,3620 @@
+[
+  {
+    "category": "Bond Financed Funds",
+    "fund": "Anti-Pollution Fund",
+    "amountM": 138.416336,
+    "type": "spending"
+  },
+  {
+    "category": "Bond Financed Funds",
+    "fund": "Build Illinois Bond Fund",
+    "amountM": 7397.788736,
+    "type": "spending"
+  },
+  {
+    "category": "Bond Financed Funds",
+    "fund": "Capital Development Fund",
+    "amountM": 9595.388607,
+    "type": "spending"
+  },
+  {
+    "category": "Bond Financed Funds",
+    "fund": "Multi-modal Transportation Bond Fund",
+    "amountM": 3556.730656,
+    "type": "spending"
+  },
+  {
+    "category": "Bond Financed Funds",
+    "fund": "School Construction Fund",
+    "amountM": 333.322972,
+    "type": "spending"
+  },
+  {
+    "category": "Bond Financed Funds",
+    "fund": "Transportation Bond Series D Fund",
+    "amountM": 190.897933,
+    "type": "spending"
+  },
+  {
+    "category": "Bond Financed Funds",
+    "fund": "Transportation Bond, Series A Fund",
+    "amountM": 4354.014007,
+    "type": "spending"
+  },
+  {
+    "category": "Bond Financed Funds",
+    "fund": "Transportation Bond, Series B Fund",
+    "amountM": 1204.367435,
+    "type": "spending"
+  },
+  {
+    "category": "Debt Service Funds",
+    "fund": "Build Illinois Bond Retirement and Interest Fund",
+    "amountM": 609.9,
+    "type": "spending"
+  },
+  {
+    "category": "Debt Service Funds",
+    "fund": "General Obligation Bond Retirement and Interest Fund",
+    "amountM": 3650.69458,
+    "type": "spending"
+  },
+  {
+    "category": "Federal Trust Funds",
+    "fund": "Abandoned Mined Lands Reclamation Council Federal Trust Fund",
+    "amountM": 306.364805,
+    "type": "spending"
+  },
+  {
+    "category": "Federal Trust Funds",
+    "fund": "Agriculture Federal Projects Fund",
+    "amountM": 41.008,
+    "type": "spending"
+  },
+  {
+    "category": "Federal Trust Funds",
+    "fund": "Agriculture Pesticide Control Act Fund",
+    "amountM": 0.75,
+    "type": "spending"
+  },
+  {
+    "category": "Federal Trust Funds",
+    "fund": "Alcoholism and Substance Abuse Fund",
+    "amountM": 56.5,
+    "type": "spending"
+  },
+  {
+    "category": "Federal Trust Funds",
+    "fund": "Attorney General Federal Grant Fund",
+    "amountM": 13.5,
+    "type": "spending"
+  },
+  {
+    "category": "Federal Trust Funds",
+    "fund": "BHE Federal Grants Fund",
+    "amountM": 30.5,
+    "type": "spending"
+  },
+  {
+    "category": "Federal Trust Funds",
+    "fund": "Career and Technical Education Fund",
+    "amountM": 22.0,
+    "type": "spending"
+  },
+  {
+    "category": "Federal Trust Funds",
+    "fund": "Commerce and Community Affairs Assistance Fund",
+    "amountM": 450.0,
+    "type": "spending"
+  },
+  {
+    "category": "Federal Trust Funds",
+    "fund": "Community Development/Small Cities Block Grant Fund",
+    "amountM": 331.0,
+    "type": "spending"
+  },
+  {
+    "category": "Federal Trust Funds",
+    "fund": "Community Developmental Disability Services Medicaid Trust Fund",
+    "amountM": 90.0,
+    "type": "spending"
+  },
+  {
+    "category": "Federal Trust Funds",
+    "fund": "Community Mental Health Services Block Grant Fund",
+    "amountM": 83.3524,
+    "type": "spending"
+  },
+  {
+    "category": "Federal Trust Funds",
+    "fund": "Community Services Block Grant Fund",
+    "amountM": 95.0,
+    "type": "spending"
+  },
+  {
+    "category": "Federal Trust Funds",
+    "fund": "Council on Developmental Disabilities Fund",
+    "amountM": 5.061574,
+    "type": "spending"
+  },
+  {
+    "category": "Federal Trust Funds",
+    "fund": "Court of Claims Federal Grant Fund",
+    "amountM": 10.0,
+    "type": "spending"
+  },
+  {
+    "category": "Federal Trust Funds",
+    "fund": "Criminal Justice Trust Fund",
+    "amountM": 152.7,
+    "type": "spending"
+  },
+  {
+    "category": "Federal Trust Funds",
+    "fund": "DCFS Federal Projects Fund",
+    "amountM": 15.8166,
+    "type": "spending"
+  },
+  {
+    "category": "Federal Trust Funds",
+    "fund": "DHS Federal Projects Fund",
+    "amountM": 234.3076,
+    "type": "spending"
+  },
+  {
+    "category": "Federal Trust Funds",
+    "fund": "DHS Special Purposes Trust Fund",
+    "amountM": 310.6783,
+    "type": "spending"
+  },
+  {
+    "category": "Federal Trust Funds",
+    "fund": "DNR Federal Projects Fund",
+    "amountM": 96.479438,
+    "type": "spending"
+  },
+  {
+    "category": "Federal Trust Funds",
+    "fund": "Department of Labor Federal Indirect Cost Fund",
+    "amountM": 0.4,
+    "type": "spending"
+  },
+  {
+    "category": "Federal Trust Funds",
+    "fund": "Department of Labor Federal Trust Fund",
+    "amountM": 2.0,
+    "type": "spending"
+  },
+  {
+    "category": "Federal Trust Funds",
+    "fund": "Department on Aging Federal Indirect Cost Fund",
+    "amountM": 0.5,
+    "type": "spending"
+  },
+  {
+    "category": "Federal Trust Funds",
+    "fund": "EPA Energy Projects Fund",
+    "amountM": 283.873,
+    "type": "spending"
+  },
+  {
+    "category": "Federal Trust Funds",
+    "fund": "Employment and Training Fund",
+    "amountM": 2339.399,
+    "type": "spending"
+  },
+  {
+    "category": "Federal Trust Funds",
+    "fund": "Energy Administration Fund",
+    "amountM": 158.0,
+    "type": "spending"
+  },
+  {
+    "category": "Federal Trust Funds",
+    "fund": "Federal Agricultural Marketing Services Fund",
+    "amountM": 0.06,
+    "type": "spending"
+  },
+  {
+    "category": "Federal Trust Funds",
+    "fund": "Federal Aid Disaster Fund",
+    "amountM": 1105.1,
+    "type": "spending"
+  },
+  {
+    "category": "Federal Trust Funds",
+    "fund": "Federal Civil Preparedness Administrative Fund",
+    "amountM": 2.7324,
+    "type": "spending"
+  },
+  {
+    "category": "Federal Trust Funds",
+    "fund": "Federal Congressional Teacher Scholarship Program Fund",
+    "amountM": 0.1,
+    "type": "spending"
+  },
+  {
+    "category": "Federal Trust Funds",
+    "fund": "Federal Energy Fund",
+    "amountM": 37.1333,
+    "type": "spending"
+  },
+  {
+    "category": "Federal Trust Funds",
+    "fund": "Federal Industrial Services Fund",
+    "amountM": 4.0,
+    "type": "spending"
+  },
+  {
+    "category": "Federal Trust Funds",
+    "fund": "Federal Mass Transit Trust Fund",
+    "amountM": 228.701864,
+    "type": "spending"
+  },
+  {
+    "category": "Federal Trust Funds",
+    "fund": "Federal Student Incentive Trust Fund",
+    "amountM": 11.62,
+    "type": "spending"
+  },
+  {
+    "category": "Federal Trust Funds",
+    "fund": "Federal Support Agreement Revolving Fund",
+    "amountM": 40.4107,
+    "type": "spending"
+  },
+  {
+    "category": "Federal Trust Funds",
+    "fund": "Federal Surface Mining Control and Reclamation Fund",
+    "amountM": 6.0943,
+    "type": "spending"
+  },
+  {
+    "category": "Federal Trust Funds",
+    "fund": "Federal Title IV Fire Protection Assistance Fund",
+    "amountM": 20.005688,
+    "type": "spending"
+  },
+  {
+    "category": "Federal Trust Funds",
+    "fund": "Federal Workforce Training Fund",
+    "amountM": 325.0,
+    "type": "spending"
+  },
+  {
+    "category": "Federal Trust Funds",
+    "fund": "Federal/State/Local Airport Fund",
+    "amountM": 501.402767,
+    "type": "spending"
+  },
+  {
+    "category": "Federal Trust Funds",
+    "fund": "Fire Prevention Division Fund",
+    "amountM": 1.0,
+    "type": "spending"
+  },
+  {
+    "category": "Federal Trust Funds",
+    "fund": "Flood Control Land Lease Fund",
+    "amountM": 1.0,
+    "type": "spending"
+  },
+  {
+    "category": "Federal Trust Funds",
+    "fund": "Forest Reserve Fund",
+    "amountM": 0.65,
+    "type": "spending"
+  },
+  {
+    "category": "Federal Trust Funds",
+    "fund": "GI Education Fund",
+    "amountM": 2.6078,
+    "type": "spending"
+  },
+  {
+    "category": "Federal Trust Funds",
+    "fund": "Gaining Early Awareness and Readiness for Undergraduate Programs Fund",
+    "amountM": 3.5168,
+    "type": "spending"
+  },
+  {
+    "category": "Federal Trust Funds",
+    "fund": "Homeland Security Emergency Preparedness Trust Fund",
+    "amountM": 398.0274,
+    "type": "spending"
+  },
+  {
+    "category": "Federal Trust Funds",
+    "fund": "ICCB Adult Education Fund",
+    "amountM": 29.0,
+    "type": "spending"
+  },
+  {
+    "category": "Federal Trust Funds",
+    "fund": "Illinois Arts Council Federal Grant Fund",
+    "amountM": 1.325,
+    "type": "spending"
+  },
+  {
+    "category": "Federal Trust Funds",
+    "fund": "Illinois State Police Federal Projects Fund",
+    "amountM": 40.0,
+    "type": "spending"
+  },
+  {
+    "category": "Federal Trust Funds",
+    "fund": "Indoor Radon Mitigation Fund",
+    "amountM": 1.25,
+    "type": "spending"
+  },
+  {
+    "category": "Federal Trust Funds",
+    "fund": "Intra-Agency Services Fund",
+    "amountM": 18.6892,
+    "type": "spending"
+  },
+  {
+    "category": "Federal Trust Funds",
+    "fund": "Juvenile Justice Trust Fund",
+    "amountM": 3.0,
+    "type": "spending"
+  },
+  {
+    "category": "Federal Trust Funds",
+    "fund": "Law Enforcement Officers Training Board Federal Projects Fund",
+    "amountM": 8.0,
+    "type": "spending"
+  },
+  {
+    "category": "Federal Trust Funds",
+    "fund": "Library Services Fund",
+    "amountM": 6.5,
+    "type": "spending"
+  },
+  {
+    "category": "Federal Trust Funds",
+    "fund": "Local Initiative Fund",
+    "amountM": 22.7544,
+    "type": "spending"
+  },
+  {
+    "category": "Federal Trust Funds",
+    "fund": "Low Income Home Energy Assistance Block Grant Fund",
+    "amountM": 480.0,
+    "type": "spending"
+  },
+  {
+    "category": "Federal Trust Funds",
+    "fund": "Maternal and Child Health Services Block Grant Fund",
+    "amountM": 34.0031,
+    "type": "spending"
+  },
+  {
+    "category": "Federal Trust Funds",
+    "fund": "Mines and Minerals Underground Injection Control Fund",
+    "amountM": 0.75,
+    "type": "spending"
+  },
+  {
+    "category": "Federal Trust Funds",
+    "fund": "National Flood Insurance Program Fund",
+    "amountM": 1.0,
+    "type": "spending"
+  },
+  {
+    "category": "Federal Trust Funds",
+    "fund": "Nuclear Civil Protection Planning Fund",
+    "amountM": 65.0,
+    "type": "spending"
+  },
+  {
+    "category": "Federal Trust Funds",
+    "fund": "Old Age Survivors Insurance Fund",
+    "amountM": 132.207,
+    "type": "spending"
+  },
+  {
+    "category": "Federal Trust Funds",
+    "fund": "Prevention and Treatment of Alcoholism and Substance Abuse Block Grant Fund",
+    "amountM": 148.5449,
+    "type": "spending"
+  },
+  {
+    "category": "Federal Trust Funds",
+    "fund": "Preventive Health and Health Services Block Grant Fund",
+    "amountM": 6.2318,
+    "type": "spending"
+  },
+  {
+    "category": "Federal Trust Funds",
+    "fund": "Public Health Federal Projects Fund",
+    "amountM": 5.5,
+    "type": "spending"
+  },
+  {
+    "category": "Federal Trust Funds",
+    "fund": "Public Health Services Fund",
+    "amountM": 1130.7133,
+    "type": "spending"
+  },
+  {
+    "category": "Federal Trust Funds",
+    "fund": "Rehabilitation Services Elementary and Secondary Education Act Fund",
+    "amountM": 2.0,
+    "type": "spending"
+  },
+  {
+    "category": "Federal Trust Funds",
+    "fund": "SBE Federal Agency Services Fund",
+    "amountM": 44.7,
+    "type": "spending"
+  },
+  {
+    "category": "Federal Trust Funds",
+    "fund": "SBE Federal Department of Agriculture Fund",
+    "amountM": 1269.9047,
+    "type": "spending"
+  },
+  {
+    "category": "Federal Trust Funds",
+    "fund": "SBE Federal Department of Education Fund",
+    "amountM": 5144.03,
+    "type": "spending"
+  },
+  {
+    "category": "Federal Trust Funds",
+    "fund": "Secretary of State Federal Projects Fund",
+    "amountM": 1.0,
+    "type": "spending"
+  },
+  {
+    "category": "Federal Trust Funds",
+    "fund": "Senior Health Insurance Program Fund",
+    "amountM": 2.7,
+    "type": "spending"
+  },
+  {
+    "category": "Federal Trust Funds",
+    "fund": "Services for Older Americans Fund",
+    "amountM": 189.7954,
+    "type": "spending"
+  },
+  {
+    "category": "Federal Trust Funds",
+    "fund": "Special Education Medicaid Matching Fund",
+    "amountM": 400.0,
+    "type": "spending"
+  },
+  {
+    "category": "Federal Trust Funds",
+    "fund": "Special Federal Grant Projects Fund",
+    "amountM": 0.05,
+    "type": "spending"
+  },
+  {
+    "category": "Federal Trust Funds",
+    "fund": "Special Projects Division Fund",
+    "amountM": 4.7948,
+    "type": "spending"
+  },
+  {
+    "category": "Federal Trust Funds",
+    "fund": "State Coronavirus Urgent Remediation Emergency Fund",
+    "amountM": 1548.502045,
+    "type": "spending"
+  },
+  {
+    "category": "Federal Trust Funds",
+    "fund": "Student Loan Operating Fund",
+    "amountM": 47.7411,
+    "type": "spending"
+  },
+  {
+    "category": "Federal Trust Funds",
+    "fund": "Summer EBT Program Fund",
+    "amountM": 600.0,
+    "type": "spending"
+  },
+  {
+    "category": "Federal Trust Funds",
+    "fund": "Supreme Court Federal Projects Fund",
+    "amountM": 10.0,
+    "type": "spending"
+  },
+  {
+    "category": "Federal Trust Funds",
+    "fund": "Tennessee Valley Authority Local Trust Fund",
+    "amountM": 0.5,
+    "type": "spending"
+  },
+  {
+    "category": "Federal Trust Funds",
+    "fund": "Title III Social Security and Employment Fund",
+    "amountM": 512.956,
+    "type": "spending"
+  },
+  {
+    "category": "Federal Trust Funds",
+    "fund": "U.S. Environmental Protection Fund",
+    "amountM": 894.256554,
+    "type": "spending"
+  },
+  {
+    "category": "Federal Trust Funds",
+    "fund": "USDA Women, Infants and Children Fund",
+    "amountM": 308.8399,
+    "type": "spending"
+  },
+  {
+    "category": "Federal Trust Funds",
+    "fund": "Unemployment Compensation Special Administration Fund",
+    "amountM": 2.1,
+    "type": "spending"
+  },
+  {
+    "category": "Federal Trust Funds",
+    "fund": "Vocational Rehabilitation Fund",
+    "amountM": 267.6266,
+    "type": "spending"
+  },
+  {
+    "category": "Federal Trust Funds",
+    "fund": "Wholesome Meat Fund",
+    "amountM": 11.0325,
+    "type": "spending"
+  },
+  {
+    "category": "General Funds",
+    "fund": "Commitment to Human Services Fund",
+    "amountM": 971.1621,
+    "type": "spending"
+  },
+  {
+    "category": "General Funds",
+    "fund": "Common School Fund",
+    "amountM": 9770.991013,
+    "type": "spending"
+  },
+  {
+    "category": "General Funds",
+    "fund": "Education Assistance Fund",
+    "amountM": 2628.200959,
+    "type": "spending"
+  },
+  {
+    "category": "General Funds",
+    "fund": "Fund for the Advancement of Education",
+    "amountM": 965.1364,
+    "type": "spending"
+  },
+  {
+    "category": "General Funds",
+    "fund": "General Revenue Fund",
+    "amountM": 37717.456007,
+    "type": "spending"
+  },
+  {
+    "category": "Highway Funds",
+    "fund": "Downstate Mass Transportation Capital Improvement Fund",
+    "amountM": 148.299577,
+    "type": "spending"
+  },
+  {
+    "category": "Highway Funds",
+    "fund": "Grade Crossing Protection Fund",
+    "amountM": 363.989789,
+    "type": "spending"
+  },
+  {
+    "category": "Highway Funds",
+    "fund": "Motor Fuel Tax Counties Fund",
+    "amountM": 205.9838,
+    "type": "spending"
+  },
+  {
+    "category": "Highway Funds",
+    "fund": "Motor Fuel Tax Fund",
+    "amountM": 193.1101,
+    "type": "spending"
+  },
+  {
+    "category": "Highway Funds",
+    "fund": "Motor Fuel Tax Municipalities Fund",
+    "amountM": 287.2562,
+    "type": "spending"
+  },
+  {
+    "category": "Highway Funds",
+    "fund": "Motor Fuel Tax Townships and Road Districts Fund",
+    "amountM": 93.385,
+    "type": "spending"
+  },
+  {
+    "category": "Highway Funds",
+    "fund": "Regional Transportation Authority Capital Improvement Fund",
+    "amountM": 757.040845,
+    "type": "spending"
+  },
+  {
+    "category": "Highway Funds",
+    "fund": "Road Fund",
+    "amountM": 13701.812539,
+    "type": "spending"
+  },
+  {
+    "category": "Highway Funds",
+    "fund": "State Construction Account Fund",
+    "amountM": 4704.079168,
+    "type": "spending"
+  },
+  {
+    "category": "Highway Funds",
+    "fund": "Transportation Renewal Fund",
+    "amountM": 579.3702,
+    "type": "spending"
+  },
+  {
+    "category": "Revolving Funds",
+    "fund": "Air Transportation Revolving Fund",
+    "amountM": 0.208,
+    "type": "spending"
+  },
+  {
+    "category": "Revolving Funds",
+    "fund": "Facilities Management Revolving Fund",
+    "amountM": 292.0435,
+    "type": "spending"
+  },
+  {
+    "category": "Revolving Funds",
+    "fund": "Grant Accountability and Transparency Fund",
+    "amountM": 4.0,
+    "type": "spending"
+  },
+  {
+    "category": "Revolving Funds",
+    "fund": "Professional Services Fund",
+    "amountM": 88.3766,
+    "type": "spending"
+  },
+  {
+    "category": "Revolving Funds",
+    "fund": "State Garage Revolving Fund",
+    "amountM": 109.4207,
+    "type": "spending"
+  },
+  {
+    "category": "Revolving Funds",
+    "fund": "Technology Management Revolving Fund",
+    "amountM": 650.7062,
+    "type": "spending"
+  },
+  {
+    "category": "Revolving Funds",
+    "fund": "Workers' Compensation Revolving Fund",
+    "amountM": 124.0,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "100 Club of Illinois Fund",
+    "amountM": 0.1,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Abandoned Residential Property Municipality Relief Fund",
+    "amountM": 2.5,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Academic Quality Assurance Fund",
+    "amountM": 0.8,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Access to Justice Fund",
+    "amountM": 1.4,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Adeline Jay Geo-Karis Illinois Beach Marina Fund",
+    "amountM": 0.41,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Aeronautics Fund",
+    "amountM": 0.0057,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "African-American HIV/AIDS Response Fund",
+    "amountM": 15.0,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "After-School Rescue Fund",
+    "amountM": 0.2,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Aggregate Operations Regulatory Fund",
+    "amountM": 0.3523,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Agricultural Premium Fund",
+    "amountM": 23.2136,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Agriculture in the Classroom Fund",
+    "amountM": 0.16,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Alternative Compliance Market Account Fund",
+    "amountM": 0.15,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Alzheimer's Awareness Fund",
+    "amountM": 1.3,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Alzheimer's Disease Research, Care, and Support Fund",
+    "amountM": 0.5,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Amusement Ride and Patron Safety Fund",
+    "amountM": 0.3484,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Anna Veterans Home Fund",
+    "amountM": 4.194,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Appraisal Administration Fund",
+    "amountM": 1.5788,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Assistance to the Homeless Fund",
+    "amountM": 1.5,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Assisted Living and Shared Housing Regulatory Fund",
+    "amountM": 3.3,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Attorney General Court Ordered and Voluntary Compliance Payment Projects Fund",
+    "amountM": 27.0,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Attorney General Sex Offender Awareness, Training, and Education Fund",
+    "amountM": 0.35,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Attorney General Tobacco Fund",
+    "amountM": 2.5,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Attorney General Whistleblower Reward and Protection Fund",
+    "amountM": 1.0,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Attorney General's State Projects and Court Ordered Distribution Fund",
+    "amountM": 31.0,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Audit Expense Fund",
+    "amountM": 38.229296,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Autism Awareness Fund",
+    "amountM": 0.05,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Autism Care Fund",
+    "amountM": 0.05,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Autism Research Checkoff Fund",
+    "amountM": 0.025,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Autoimmune Disease Research Fund",
+    "amountM": 0.05,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "BHE Data and Research Cost Recovery Fund",
+    "amountM": 0.03,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Bank and Trust Company Fund",
+    "amountM": 23.9008,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Board of Higher Education State Contracts and Grants Fund",
+    "amountM": 15.0,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Boy Scout and Girl Scout Fund",
+    "amountM": 0.025,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Brownfields Redevelopment Fund",
+    "amountM": 6.0,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "CDLIS/AAMVAnet/NMVTIS Trust Fund",
+    "amountM": 5.6495,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Cannabis Business Development Fund",
+    "amountM": 76.0,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Cannabis Expungement Fund",
+    "amountM": 2.815,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Cannabis Regulation Fund",
+    "amountM": 48.317,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Capital Development Board Revolving Fund",
+    "amountM": 33.104,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Capital Facility and Technology Modernization Fund",
+    "amountM": 16.5,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Carbon Dioxide Sequestration Administrative Fund",
+    "amountM": 0.4,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Care Provider Fund for Persons with a Developmental Disability",
+    "amountM": 51.3,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Carolyn Adams Ticket For The Cure Grant Fund",
+    "amountM": 2.0,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Cemetery Oversight Licensing and Disciplinary Fund",
+    "amountM": 2.4147,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Charitable Trust Stabilization Fund",
+    "amountM": 1.0,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Charter Schools Revolving Loan Fund",
+    "amountM": 0.2,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Chicago Police Memorial Foundation Fund",
+    "amountM": 0.45,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Chicago State University Education Improvement Fund",
+    "amountM": 3.0,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Chicago Travel Industry Promotion Fund",
+    "amountM": 18.032756,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Child Labor and Day and Temporary Labor Services Enforcement Fund",
+    "amountM": 2.5,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Child Support Administrative Fund",
+    "amountM": 245.9713,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Childhood Cancer Research Fund",
+    "amountM": 0.075,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Children's Wellness Charities Fund",
+    "amountM": 0.05,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Clean Air Act Permit Fund",
+    "amountM": 26.5721,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Coal Combustion Residual Surface Impoundment Financial Assurance Fund",
+    "amountM": 50.0,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Coal Mining Regulatory Fund",
+    "amountM": 0.411,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Coal Technology Development Assistance Fund",
+    "amountM": 12.338,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Coal to Solar and Energy Storage Initiative Fund",
+    "amountM": 28.005,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Community Health Center Care Fund",
+    "amountM": 0.35,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Community Mental Health Medicaid Trust Fund",
+    "amountM": 70.0,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Community Water Supply Laboratory Fund",
+    "amountM": 1.2652,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Compassionate Use of Medical Cannabis Fund",
+    "amountM": 28.3018,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Comptroller's Administrative Fund",
+    "amountM": 1.5,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Conservation Police Operations Assistance Fund",
+    "amountM": 3.2835,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Consumer Intervenor Compensation Fund",
+    "amountM": 3.0,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Continuing Legal Education Trust Fund",
+    "amountM": 0.1,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Corporate Franchise Tax Refund Fund",
+    "amountM": 1.0,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "County Provider Trust Fund",
+    "amountM": 3426.0,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Court of Claims Administration and Grant Fund",
+    "amountM": 0.45,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Credit Union Fund",
+    "amountM": 6.6076,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Cycle Rider Safety Training Fund",
+    "amountM": 22.466054,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "DCFS Children's Services Fund",
+    "amountM": 717.04,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "DUI Prevention and Education Fund",
+    "amountM": 1.6,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Death Certificate Surcharge Fund",
+    "amountM": 2.96,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Death Penalty Abolition Fund",
+    "amountM": 4.8743,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Department of Business Services Special Operations Fund",
+    "amountM": 16.0834,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Department of Corrections Reimbursement and Education Fund",
+    "amountM": 118.1,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Department of Human Rights Special Fund",
+    "amountM": 0.5,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Department of Human Rights Training and Development Fund",
+    "amountM": 0.1,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Department of Human Services Community Services Fund",
+    "amountM": 205.0,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Department of Juvenile Justice Reimbursement and Education Fund",
+    "amountM": 6.5,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Design Professionals Administration and Investigation Fund",
+    "amountM": 1.4443,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Developmental Disabilities Awareness Fund",
+    "amountM": 0.1,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Diabetes Research Checkoff Fund",
+    "amountM": 0.25,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Digital Divide Elimination Fund",
+    "amountM": 0.5,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Distance Learning Fund",
+    "amountM": 0.15,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Division of Corporations Registered Limited Liability Partnership Fund",
+    "amountM": 0.2149,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Division of Real Estate General Fund",
+    "amountM": 2.309,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Domestic Violence Abuser Services Fund",
+    "amountM": 0.25,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Domestic Violence Fund",
+    "amountM": 0.7,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Domestic Violence Shelter and Service Fund",
+    "amountM": 0.9522,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Downstate Public Transportation Fund",
+    "amountM": 463.3605,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Downstate Transit Improvement Fund",
+    "amountM": 255.826001,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Dram Shop Fund",
+    "amountM": 13.8764,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Driver Services Administration Fund",
+    "amountM": 2.5,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Drivers Education Fund",
+    "amountM": 10.0,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Drug Rebate Fund",
+    "amountM": 2700.2,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Drug Traffic Prevention Fund",
+    "amountM": 0.525,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Drug Treatment Fund",
+    "amountM": 15.1108,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Drunk and Drugged Driving Prevention Fund",
+    "amountM": 3.2122,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Drycleaner Environmental Response Trust Fund",
+    "amountM": 3.2614,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Ducks Unlimited Fund",
+    "amountM": 0.025,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "EMS Assistance Fund",
+    "amountM": 1.0,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Economic Research and Information Fund",
+    "amountM": 10.15,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Electric Vehicle Rebate Fund",
+    "amountM": 14.825,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Electronic Notarization Fund",
+    "amountM": 0.4,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Emergency Planning and Training Fund",
+    "amountM": 0.226,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Emergency Public Health Fund",
+    "amountM": 5.4,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Employee Classification Fund",
+    "amountM": 0.15,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Energy Efficiency Trust Fund",
+    "amountM": 11.371538,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Energy Transition Assistance Fund",
+    "amountM": 311.6,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Environmental Justice Grant Fund",
+    "amountM": 0.1,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Environmental Laboratory Certification Fund",
+    "amountM": 0.5636,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Environmental Protection Permit and Inspection Fund",
+    "amountM": 27.5989,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Epilepsy Treatment and Education Grants-in-Aid Fund",
+    "amountM": 0.03,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Equal Pay Fund",
+    "amountM": 1.0,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Equity in Long-term Care Quality Fund",
+    "amountM": 3.5,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Explosives Regulatory Fund",
+    "amountM": 0.288,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Facility Licensing Fund",
+    "amountM": 3.3,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Fair and Exposition Fund",
+    "amountM": 0.96,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Family Responsibility Fund",
+    "amountM": 0.2,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Federal Asset Forfeiture Fund",
+    "amountM": 2.5,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Federal High Speed Rail Trust Fund",
+    "amountM": 654.007013,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Feed Control Fund",
+    "amountM": 3.3623,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Fertilizer Control Fund",
+    "amountM": 1.8416,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Financial Institution Fund",
+    "amountM": 9.8446,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Fire Prevention Fund",
+    "amountM": 68.483203,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "First Responder Behavioral Health Grant Fund",
+    "amountM": 10.0,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Folds of Honor Foundation Fund",
+    "amountM": 0.1,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Food and Drug Safety Fund",
+    "amountM": 0.3,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Foreclosure Prevention Program Fund",
+    "amountM": 1.0,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Foreclosure Prevention Program Graduated Fund",
+    "amountM": 1.5,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Foreign Language Interpreter Fund",
+    "amountM": 0.7088,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Fraternal Order of Police Fund",
+    "amountM": 0.016,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Freedom Schools Fund",
+    "amountM": 17.0,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Fund for Illinois' Future",
+    "amountM": 316.819978,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Future Farmers of America Fund",
+    "amountM": 0.1,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "General Assembly Computer Equipment Revolving Fund",
+    "amountM": 1.6,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "General Assembly Operations Revolving Fund",
+    "amountM": 0.5,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "General Assembly Technology Fund",
+    "amountM": 3.0,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "General Obligation Bond Rebate Fund",
+    "amountM": 1.0,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "General Professions Dedicated Fund",
+    "amountM": 13.5279,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "George Bailey Memorial Fund",
+    "amountM": 0.1,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Golden Apple Scholars of Illinois Fund",
+    "amountM": 0.1,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Governor's Administrative Fund",
+    "amountM": 0.5,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Governor's Grant Fund",
+    "amountM": 0.5,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Group Home Loan Revolving Fund",
+    "amountM": 0.3,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Guardianship and Advocacy Fund",
+    "amountM": 2.9979,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Hate Crimes and Bias Incident Prevention and Response Fund",
+    "amountM": 5.0,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Hazardous Waste Fund",
+    "amountM": 18.744,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Hazardous Waste Research Fund",
+    "amountM": 0.5,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Health Facility Plan Review Fund",
+    "amountM": 2.227,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Health Insurance Reserve Fund",
+    "amountM": 4399.8102,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Health and Human Services Medicaid Trust Fund",
+    "amountM": 79.0825,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Healthcare Provider Relief Fund",
+    "amountM": 16377.9677,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Healthy Smiles Fund",
+    "amountM": 0.4,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Hearing Instrument Dispenser Examining and Disciplinary Fund",
+    "amountM": 0.1,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Heartsaver AED Fund",
+    "amountM": 0.05,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Help Illinois Vote Fund",
+    "amountM": 14.0957,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "High-Speed Rail Rolling Stock Fund",
+    "amountM": 34.0,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Historic Property Administrative Fund",
+    "amountM": 0.5,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Home Care Services Agency Licensure Fund",
+    "amountM": 1.8464,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Home Services Medicaid Trust Fund",
+    "amountM": 256.0,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Homelessness Prevention Revenue Fund",
+    "amountM": 2.0,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Horse Racing Fund",
+    "amountM": 5.0542,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Hospice Fund",
+    "amountM": 0.003,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Hospital Licensure Fund",
+    "amountM": 2.4,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Hospital Provider Fund",
+    "amountM": 4505.2,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Housing for Families Fund",
+    "amountM": 0.05,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Hunger Relief Fund",
+    "amountM": 0.5,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "ICCB Federal Trust Fund",
+    "amountM": 0.625,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "ICCB Research and Technology Fund",
+    "amountM": 0.1,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "ICJIA Violence Prevention Fund",
+    "amountM": 0.5362,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "IMSA Income Fund",
+    "amountM": 5.925,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "ISAC Accounts Receivable Fund",
+    "amountM": 0.3,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Illinois Adoption Registry and Medical Information Exchange Fund",
+    "amountM": 0.2,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Illinois Affordable Housing Trust Fund",
+    "amountM": 305.6237,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Illinois Animal Abuse Fund",
+    "amountM": 0.004,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Illinois Broadband Adoption Fund",
+    "amountM": 100.0,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Illinois Capital Revolving Loan Fund",
+    "amountM": 2.0,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Illinois Charity Bureau Fund",
+    "amountM": 2.0,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Illinois Clean Water Fund",
+    "amountM": 23.3584,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Illinois Community College Board Contracts and Grants Fund",
+    "amountM": 10.0,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Illinois DREAM Fund",
+    "amountM": 2.5,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Illinois Department of Agriculture Laboratory Services Revolving Fund",
+    "amountM": 0.04,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Illinois Equity Fund",
+    "amountM": 1.9,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Illinois Fire Fighters' Memorial Fund",
+    "amountM": 0.375,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Illinois Fisheries Management Fund",
+    "amountM": 3.3467,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Illinois Forestry Development Fund",
+    "amountM": 21.548969,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Illinois Gaming Law Enforcement Fund",
+    "amountM": 2.4419,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Illinois Habitat Fund",
+    "amountM": 12.049452,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Illinois Health Benefits Exchange Fund",
+    "amountM": 27.5342,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Illinois Health Facilities Planning Fund",
+    "amountM": 2.8,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Illinois Higher Education Savings Program Fund",
+    "amountM": 2.5,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Illinois Historic Sites Fund",
+    "amountM": 5.414609,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Illinois Independent Tax Tribunal Fund",
+    "amountM": 0.0767,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Illinois Military Family Relief Fund",
+    "amountM": 5.25,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Illinois National Guard Construction Fund",
+    "amountM": 80.762138,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Illinois Nurses Foundation Fund",
+    "amountM": 0.04,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Illinois Pan Hellenic Trust Fund",
+    "amountM": 0.135,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Illinois Police Association Fund",
+    "amountM": 0.12,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Illinois Power Agency Operations Fund",
+    "amountM": 49.4532,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Illinois Power Agency Renewable Energy Resources Fund",
+    "amountM": 56.0,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Illinois Production Workforce Development Fund",
+    "amountM": 1.0,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Illinois Professional Golfers Association Foundation Junior Golf Fund",
+    "amountM": 0.05,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Illinois Racing Quarter Horse Breeders Fund",
+    "amountM": 0.03,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Illinois Route 66 Heritage Project Fund",
+    "amountM": 0.215,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Illinois School Asbestos Abatement Fund",
+    "amountM": 1.2,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Illinois Sheriffs' Association Scholarship and Training Fund",
+    "amountM": 0.006,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Illinois Sports Facilities Fund",
+    "amountM": 80.7246,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Illinois State Crime Stoppers Association Fund",
+    "amountM": 0.0078,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Illinois State Dental Disciplinary Fund",
+    "amountM": 2.6549,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Illinois State Fair Fund",
+    "amountM": 11.0295,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Illinois State Medical Disciplinary Fund",
+    "amountM": 15.1276,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Illinois State Pharmacy Disciplinary Fund",
+    "amountM": 3.8728,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Illinois State Podiatric Disciplinary Fund",
+    "amountM": 0.3298,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Illinois State Police Memorial Park Fund",
+    "amountM": 0.5,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Illinois Student Assistance Commission Contracts and Grants Fund",
+    "amountM": 17.5,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Illinois Telecommunications Access Corporation Fund",
+    "amountM": 1.5,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Illinois Underground Utility Facilities Damage Prevention Fund",
+    "amountM": 0.751,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Illinois Veterans Assistance Fund",
+    "amountM": 2.0,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Illinois Veterans' Homes Fund",
+    "amountM": 5.0,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Illinois Veterans' Rehabilitation Fund",
+    "amountM": 6.8829,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Illinois Wildlife Preservation Fund",
+    "amountM": 5.071238,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Illinois Workers' Compensation Commission Operations Fund",
+    "amountM": 30.6669,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Illinois Works Fund",
+    "amountM": 59.543928,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Illinois and Michigan Canal Fund",
+    "amountM": 0.03,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Imagination Library of Illinois Fund",
+    "amountM": 4.31,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Indigent BAIID Fund",
+    "amountM": 0.3,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Industrial Hemp Regulatory Fund",
+    "amountM": 2.0195,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Insurance Financial Regulation Fund",
+    "amountM": 45.7614,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Insurance Producer Administration Fund",
+    "amountM": 48.5719,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "International Brotherhood of Teamsters Fund",
+    "amountM": 0.008,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "International Tourism Fund",
+    "amountM": 5.575,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "International and Promotional Fund",
+    "amountM": 0.3,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Interpreters for the Deaf Fund",
+    "amountM": 0.2475,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Juvenile Rehabilitation Services Medicaid Matching Fund",
+    "amountM": 1.0,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "LEADS Maintenance Fund",
+    "amountM": 1.0,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "LaSalle Veterans Home Fund",
+    "amountM": 8.6834,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Landfill Closure and Post-Closure Fund",
+    "amountM": 0.4,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Large Business Attraction Fund",
+    "amountM": 500.5,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Law Enforcement Camera Grant Fund",
+    "amountM": 60.0,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Law Enforcement Recruitment and Retention Fund",
+    "amountM": 10.0,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Law Enforcement Training Fund",
+    "amountM": 40.0116,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Lead Poisoning Screening, Prevention, and Abatement Fund",
+    "amountM": 15.5927,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Lieutenant Governor's Grant Fund",
+    "amountM": 0.1,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Livestock Management Facilities Fund",
+    "amountM": 0.05,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Lobbyist Registration Administration Fund",
+    "amountM": 1.3629,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Local Government Distributive Fund",
+    "amountM": 600.0,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Local Government Video Gaming Distributive Fund",
+    "amountM": 250.0,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Local Tourism Fund",
+    "amountM": 22.590244,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Long Term Care Monitor/Receiver Fund",
+    "amountM": 28.0,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Long Term Care Ombudsman Fund",
+    "amountM": 4.6,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Long-Term Care Provider Fund",
+    "amountM": 886.1516,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Low-Level Radioactive Waste Facility Development and Operation Fund",
+    "amountM": 0.65,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Mammogram Fund",
+    "amountM": 0.117,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Mandatory Arbitration Fund",
+    "amountM": 34.1312,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Manteno Veterans Home Fund",
+    "amountM": 18.0791,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Marine Corps Scholarship Fund",
+    "amountM": 0.155,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Master Mason Fund",
+    "amountM": 0.035,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "McCormick Place Expansion Project Fund",
+    "amountM": 262.7141,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Medicaid Buy-In Program Revolving Fund",
+    "amountM": 0.8212,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Medicaid Technical Assistance Center Fund",
+    "amountM": 1.0,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Medical Debt Relief Pilot Program Fund",
+    "amountM": 15.0,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Medical Interagency Program Fund",
+    "amountM": 50.2,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Medical Special Purposes Trust Fund",
+    "amountM": 65.05,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Mental Health Fund",
+    "amountM": 99.4101,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Mental Health Reporting Fund",
+    "amountM": 9.75,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Metabolic Screening and Treatment Fund",
+    "amountM": 28.3304,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Metropolitan Pier and Exposition Authority Incentive Fund",
+    "amountM": 15.0,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Military Affairs Trust Fund",
+    "amountM": 1.0,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Money Follows the Person Budget Transfer Fund",
+    "amountM": 10.21,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Money Laundering Asset Recovery Fund",
+    "amountM": 2.0,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Monitoring Device Driving Permit Administration Fee Fund",
+    "amountM": 2.1,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Motor Carrier Safety Inspection Fund",
+    "amountM": 2.6,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Motor Fuel and Petroleum Standards Fund",
+    "amountM": 0.05,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Motor Vehicle License Plate Fund",
+    "amountM": 20.0,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Motor Vehicle Review Board Fund",
+    "amountM": 0.3334,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Multiple Sclerosis Research Fund",
+    "amountM": 1.0,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "National Guard and Naval Militia Grant Fund",
+    "amountM": 0.02,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Natural Areas Acquisition Fund",
+    "amountM": 39.221857,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Nuclear Safety Emergency Preparedness Fund",
+    "amountM": 30.9941,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Nursing Dedicated and Professional Fund",
+    "amountM": 14.2197,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Octave Chanute Aerospace Heritage Fund",
+    "amountM": 0.035,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Off-Highway Vehicle Trails Fund",
+    "amountM": 1.491764,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Off-Hours Child Care Program Fund",
+    "amountM": 2.0,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Offender Registration Fund",
+    "amountM": 0.5,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Oil and Gas Resource Management Fund",
+    "amountM": 1.5,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Open Space Lands Acquisition and Development Fund",
+    "amountM": 172.104542,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Optometric Licensing and Disciplinary Board Fund",
+    "amountM": 1.1123,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Organ Donor Awareness Fund",
+    "amountM": 0.17,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Ovarian Cancer Awareness Fund",
+    "amountM": 0.013,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Parity Advancement Fund",
+    "amountM": 2.0,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Park District Youth Program Fund",
+    "amountM": 0.028,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Park and Conservation Fund",
+    "amountM": 217.728554,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Partners for Conservation Fund",
+    "amountM": 19.830912,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Partners for Conservation Projects Fund",
+    "amountM": 1.327523,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Pawnbroker Regulation Fund",
+    "amountM": 0.287,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Penny Severns Breast, Cervical, and Ovarian Cancer Research Fund",
+    "amountM": 0.6,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Personal Property Tax Replacement Fund",
+    "amountM": 369.2319,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Pesticide Control Fund",
+    "amountM": 9.0777,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Pet Population Control Fund",
+    "amountM": 0.25,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Plugging and Restoration Fund",
+    "amountM": 53.246675,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Plumbing Licensure and Program Fund",
+    "amountM": 3.95,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Police Memorial Committee Fund",
+    "amountM": 0.6,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Police Training Board Services Fund",
+    "amountM": 0.105,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Pollution Control Board Fund",
+    "amountM": 0.027,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Presidential Library and Museum Operating Fund",
+    "amountM": 5.4921,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Prisoner Review Board Vehicle and Equipment Fund",
+    "amountM": 0.185,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Private Business and Vocational Schools Quality Assurance Fund",
+    "amountM": 0.65,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Private Sewage Disposal Program Fund",
+    "amountM": 0.292,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Professions Indirect Cost Fund",
+    "amountM": 37.965,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Prostate Cancer Research Fund",
+    "amountM": 0.03,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Public Defender Fund",
+    "amountM": 10.0,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Public Health Laboratory Services Revolving Fund",
+    "amountM": 6.0,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Public Health Water Permit Fund",
+    "amountM": 0.1,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Public Infrastructure Construction Loan Revolving Fund",
+    "amountM": 1.0,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Public Pension Regulation Fund",
+    "amountM": 3.6566,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Public Transportation Fund",
+    "amountM": 638.6108,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Public Utility Fund",
+    "amountM": 49.7352,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Quality of Life Endowment Fund",
+    "amountM": 1.0,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Quincy Veterans Home Fund",
+    "amountM": 26.9266,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Radiation Protection Fund",
+    "amountM": 12.97,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Rail Freight Loan Repayment Fund",
+    "amountM": 1.099581,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Real Estate License Administration Fund",
+    "amountM": 7.4555,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Real Estate Recovery Fund",
+    "amountM": 0.15,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Real Estate Research and Education Fund",
+    "amountM": 0.4071,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Rebuild Illinois Projects Fund",
+    "amountM": 535.069877,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Registered Certified Public Accountants' Administration and Disciplinary Fund",
+    "amountM": 2.4393,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Regulatory Evaluation and Basic Enforcement Fund",
+    "amountM": 0.15,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Renewable Energy Resources Trust Fund",
+    "amountM": 6.0,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Rental Housing Support Program Fund",
+    "amountM": 26.75,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Residential Finance Regulatory Fund",
+    "amountM": 6.7137,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Roadside Monarch Habitat Fund",
+    "amountM": 0.025,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Ronald McDonald House Charities Fund",
+    "amountM": 0.3,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Rotary Club Fund",
+    "amountM": 0.004,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Rural/Downstate Health Access Fund",
+    "amountM": 0.175,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Safe Bottled Water Fund",
+    "amountM": 0.05,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Salmon Fund",
+    "amountM": 0.293,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Savings Bank Regulatory Fund",
+    "amountM": 0.4268,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "School District Emergency Financial Assistance Fund",
+    "amountM": 1.0,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "School Infrastructure Fund",
+    "amountM": 118.86101,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "School STEAM Grant Program Fund",
+    "amountM": 2.5,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "School Technology Revolving Loan Fund",
+    "amountM": 7.5,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Scott's Law Fund",
+    "amountM": 2.0,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Secretary of State DUI Administration Fund",
+    "amountM": 4.6,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Secretary of State Evidence Fund",
+    "amountM": 0.2,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Secretary of State Identification Security and Theft Prevention Fund",
+    "amountM": 50.0,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Secretary of State Police Services Fund",
+    "amountM": 1.0,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Secretary of State Special License Plate Fund",
+    "amountM": 4.1316,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Secretary of State Special Services Fund",
+    "amountM": 203.126,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Secretary of State's Grant Fund",
+    "amountM": 0.3,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Securities Audit and Enforcement Fund",
+    "amountM": 10.8164,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Securities Investors Education Fund",
+    "amountM": 1.5,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Senior Citizens Real Estate Deferred Tax Revolving Fund",
+    "amountM": 6.5,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "September 11th Fund",
+    "amountM": 0.5,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Serve Illinois Commission Fund",
+    "amountM": 15.0,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Sex Offender Management Board Fund",
+    "amountM": 0.1,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Sexual Assault Services Fund",
+    "amountM": 0.5004,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Sexual Assault Services and Prevention Fund",
+    "amountM": 0.6,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Share the Road Fund",
+    "amountM": 0.035,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Sheet Metal Workers International Association of Illinois Fund",
+    "amountM": 0.006,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Sickle Cell Chronic Disease Fund",
+    "amountM": 1.0,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Small Business Environmental Assistance Fund",
+    "amountM": 0.6,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Snowmobile Trail Establishment Fund",
+    "amountM": 0.557557,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Solid Waste Management Fund",
+    "amountM": 26.1533,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Sound-Reducing Windows and Doors Replacement Fund",
+    "amountM": 49.0,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "South Suburban Airport Improvement Fund",
+    "amountM": 1.0,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "South Suburban Brownfields Redevelopment Fund",
+    "amountM": 4.0,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Special Olympics Illinois Fund",
+    "amountM": 0.05,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Special Olympics Illinois and Special Children's Charities Fund",
+    "amountM": 2.0,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Specialized Services for Survivors of Human Trafficking Fund",
+    "amountM": 0.1,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Spinal Cord Injury Paralysis Cure Research Trust Fund",
+    "amountM": 0.5,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Sports Wagering Fund",
+    "amountM": 19.0,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "State Asset Forfeiture Fund",
+    "amountM": 4.0,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "State Aviation Program Fund",
+    "amountM": 60.441602,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "State Boating Act Fund",
+    "amountM": 35.546238,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "State College and University Trust Fund",
+    "amountM": 0.331,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "State Crime Laboratory Fund",
+    "amountM": 15.0,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "State Fairgrounds Capital Improvements and Harness Racing Fund",
+    "amountM": 0.2,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "State Furbearer Fund",
+    "amountM": 0.757252,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "State Gaming Fund",
+    "amountM": 262.44,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "State Library Fund",
+    "amountM": 0.0243,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "State Lottery Fund",
+    "amountM": 3290.1338,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "State Migratory Waterfowl Stamp Fund",
+    "amountM": 3.603972,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "State Military Justice Fund",
+    "amountM": 0.1,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "State Parking Facility Maintenance Fund",
+    "amountM": 0.8,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "State Parks Fund",
+    "amountM": 22.389848,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "State Pensions Fund",
+    "amountM": 239.76843,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "State Pheasant Fund",
+    "amountM": 5.201641,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "State Police Firearm Enforcement Fund",
+    "amountM": 2.0,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "State Police Firearm Services Fund",
+    "amountM": 29.5,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "State Police Law Enforcement Administration Fund",
+    "amountM": 13.0,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "State Police Merit Board Public Safety Fund",
+    "amountM": 4.9329,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "State Police Operations Assistance Fund",
+    "amountM": 45.0,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "State Police Services Fund",
+    "amountM": 44.2,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "State Police Training and Academy Fund",
+    "amountM": 6.0,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "State Police Vehicle Fund",
+    "amountM": 30.0,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "State Police Whistleblower Reward and Protection Fund",
+    "amountM": 18.0,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "State Police Wireless Service Emergency Fund",
+    "amountM": 0.7,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "State Rail Freight Loan Repayment Fund",
+    "amountM": 13.7,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "State Small Business Credit Initiative Fund",
+    "amountM": 312.0,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "State Treasurer's Bank Services Trust Fund",
+    "amountM": 10.03527,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "State and Local Sales Tax Reform Fund",
+    "amountM": 198.0,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "State's Attorneys Appellate Prosecutor's County Fund",
+    "amountM": 3.3735,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Statewide 9-1-1 Fund",
+    "amountM": 230.0,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Statewide 9-8-8 Trust Fund",
+    "amountM": 5.0,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Stroke Data Collection Fund",
+    "amountM": 0.15,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Subtitle D Management Fund",
+    "amountM": 3.3988,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Supplemental Low-Income Energy Assistance Fund",
+    "amountM": 299.75,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Support Our Troops Fund",
+    "amountM": 0.045,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Supreme Court Historic Preservation Fund",
+    "amountM": 4.5,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Supreme Court Special Purposes Fund",
+    "amountM": 20.7939,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "TOMA Consumer Protection Fund",
+    "amountM": 0.15,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Tanning Facility Permit Fund",
+    "amountM": 0.3,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Tattoo and Body Piercing Establishment Registration Fund",
+    "amountM": 0.605,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Tax Compliance and Administration Fund",
+    "amountM": 117.7311,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Tax Recovery Fund",
+    "amountM": 1.6,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Teacher Certificate Fee Revolving Fund",
+    "amountM": 6.0,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Temporary Relocation Expenses Revolving Grant Fund",
+    "amountM": 1.0,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Thriving Youth Income Tax Checkoff Fund",
+    "amountM": 0.15,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Tobacco Settlement Recovery Fund",
+    "amountM": 828.7285,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Tourism Promotion Fund",
+    "amountM": 119.7053,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Traffic and Criminal Conviction Surcharge Fund",
+    "amountM": 27.51,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Transportation Regulatory Fund",
+    "amountM": 21.3243,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Transportation Safety Highway Hire-back Fund",
+    "amountM": 0.16,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Trauma Center Fund",
+    "amountM": 17.21,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "UNCF Scholarship Fund",
+    "amountM": 2.5,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Underground Resources Conservation Enforcement Fund",
+    "amountM": 3.3547,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Underground Storage Tank Fund",
+    "amountM": 71.358,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "University Grant Fund",
+    "amountM": 0.11,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "University of Illinois Hospital Services Fund",
+    "amountM": 375.0,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Used Tire Management Fund",
+    "amountM": 14.282,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "VW Settlement Environmental Mitigation Fund",
+    "amountM": 80.0,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Vehicle Hijacking and Motor Vehicle Theft Prevention and Insurance Verification Trust Fund",
+    "amountM": 45.0,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Vehicle Inspection Fund",
+    "amountM": 36.3039,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Violent Crime Victims Assistance Fund",
+    "amountM": 6.0,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Violent Crime Witness Protection Program Fund",
+    "amountM": 30.0,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Wage Theft Enforcement Fund",
+    "amountM": 0.5,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Water Resources Fund",
+    "amountM": 0.1,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Water Revolving Fund",
+    "amountM": 4333.517511,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Water and Sewer Low-Income Assistance Fund",
+    "amountM": 5.0,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Weights and Measures Fund",
+    "amountM": 7.8832,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Wildlife Prairie Park Fund",
+    "amountM": 0.07,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Wildlife and Fish Fund",
+    "amountM": 244.173004,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Workforce, Technology, and Economic Development Fund",
+    "amountM": 161.501551,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Youth Alcoholism and Substance Abuse Prevention Fund",
+    "amountM": 2.05,
+    "type": "spending"
+  },
+  {
+    "category": "Special State Funds",
+    "fund": "Youth Drug Abuse Prevention Fund",
+    "amountM": 0.56,
+    "type": "spending"
+  },
+  {
+    "category": "State Trust Funds",
+    "fund": "Abandoned Mined Lands Reclamation Set-Aside Fund",
+    "amountM": 2.0,
+    "type": "spending"
+  },
+  {
+    "category": "State Trust Funds",
+    "fund": "Agricultural Master Fund",
+    "amountM": 1.3557,
+    "type": "spending"
+  },
+  {
+    "category": "State Trust Funds",
+    "fund": "Capital Development Board Contributory Trust Fund",
+    "amountM": 65.959932,
+    "type": "spending"
+  },
+  {
+    "category": "State Trust Funds",
+    "fund": "Criminal Justice Information Projects Fund",
+    "amountM": 206.2153,
+    "type": "spending"
+  },
+  {
+    "category": "State Trust Funds",
+    "fund": "DCEO Projects Fund",
+    "amountM": 30.0,
+    "type": "spending"
+  },
+  {
+    "category": "State Trust Funds",
+    "fund": "DCFS Special Purposes Trust Fund",
+    "amountM": 52.7945,
+    "type": "spending"
+  },
+  {
+    "category": "State Trust Funds",
+    "fund": "DHS Private Resources Fund",
+    "amountM": 0.9,
+    "type": "spending"
+  },
+  {
+    "category": "State Trust Funds",
+    "fund": "DHS Recoveries Trust Fund",
+    "amountM": 27.563,
+    "type": "spending"
+  },
+  {
+    "category": "State Trust Funds",
+    "fund": "DHS State Projects Fund",
+    "amountM": 117.168,
+    "type": "spending"
+  },
+  {
+    "category": "State Trust Funds",
+    "fund": "DNR Special Projects Fund",
+    "amountM": 41.517464,
+    "type": "spending"
+  },
+  {
+    "category": "State Trust Funds",
+    "fund": "Department on Aging State Projects Fund",
+    "amountM": 0.345,
+    "type": "spending"
+  },
+  {
+    "category": "State Trust Funds",
+    "fund": "Disaster Response and Recovery Fund",
+    "amountM": 500.0,
+    "type": "spending"
+  },
+  {
+    "category": "State Trust Funds",
+    "fund": "DoIT Special Projects Fund",
+    "amountM": 30.0,
+    "type": "spending"
+  },
+  {
+    "category": "State Trust Funds",
+    "fund": "EPA Special State Projects Trust Fund",
+    "amountM": 1.4538,
+    "type": "spending"
+  },
+  {
+    "category": "State Trust Funds",
+    "fund": "Early Intervention Services Revolving Fund",
+    "amountM": 245.3,
+    "type": "spending"
+  },
+  {
+    "category": "State Trust Funds",
+    "fund": "Environmental Protection Trust Fund",
+    "amountM": 5.3,
+    "type": "spending"
+  },
+  {
+    "category": "State Trust Funds",
+    "fund": "Group Insurance Premium Fund",
+    "amountM": 105.4521,
+    "type": "spending"
+  },
+  {
+    "category": "State Trust Funds",
+    "fund": "HFS Technology Initiative Fund",
+    "amountM": 15.0,
+    "type": "spending"
+  },
+  {
+    "category": "State Trust Funds",
+    "fund": "High School Equivalency Testing Fund",
+    "amountM": 0.1,
+    "type": "spending"
+  },
+  {
+    "category": "State Trust Funds",
+    "fund": "ICJIA Violence Prevention Special Projects Fund",
+    "amountM": 0.4,
+    "type": "spending"
+  },
+  {
+    "category": "State Trust Funds",
+    "fund": "IEMA State Projects Fund",
+    "amountM": 44.5,
+    "type": "spending"
+  },
+  {
+    "category": "State Trust Funds",
+    "fund": "ISBE Teacher Certificate Institute Fund",
+    "amountM": 2.2089,
+    "type": "spending"
+  },
+  {
+    "category": "State Trust Funds",
+    "fund": "Illinois Opioid Remediation State Trust Fund",
+    "amountM": 88.0,
+    "type": "spending"
+  },
+  {
+    "category": "State Trust Funds",
+    "fund": "Illinois Power Agency Trust Fund",
+    "amountM": 12.0,
+    "type": "spending"
+  },
+  {
+    "category": "State Trust Funds",
+    "fund": "Land Reclamation Fund",
+    "amountM": 14.649399,
+    "type": "spending"
+  },
+  {
+    "category": "State Trust Funds",
+    "fund": "Land and Water Recreation Fund",
+    "amountM": 33.805187,
+    "type": "spending"
+  },
+  {
+    "category": "State Trust Funds",
+    "fund": "Loan Loss Reserve Fund",
+    "amountM": 10.0,
+    "type": "spending"
+  },
+  {
+    "category": "State Trust Funds",
+    "fund": "Municipal Telecommunications Fund",
+    "amountM": 0.012,
+    "type": "spending"
+  },
+  {
+    "category": "State Trust Funds",
+    "fund": "Narcotics Profit Forfeiture Fund",
+    "amountM": 2.9,
+    "type": "spending"
+  },
+  {
+    "category": "State Trust Funds",
+    "fund": "Natural Resources Restoration Trust Fund",
+    "amountM": 2.9,
+    "type": "spending"
+  },
+  {
+    "category": "State Trust Funds",
+    "fund": "Oil Spill Response Fund",
+    "amountM": 0.25,
+    "type": "spending"
+  },
+  {
+    "category": "State Trust Funds",
+    "fund": "Public Aid Recoveries Trust Fund",
+    "amountM": 224.4884,
+    "type": "spending"
+  },
+  {
+    "category": "State Trust Funds",
+    "fund": "Public Health Special State Projects Fund",
+    "amountM": 63.67,
+    "type": "spending"
+  },
+  {
+    "category": "State Trust Funds",
+    "fund": "Sheffield February 1982 Agreed Order Fund",
+    "amountM": 0.275,
+    "type": "spending"
+  },
+  {
+    "category": "State Trust Funds",
+    "fund": "State Board of Education Special Purpose Trust Fund",
+    "amountM": 21.05,
+    "type": "spending"
+  },
+  {
+    "category": "State Trust Funds",
+    "fund": "State Employees Deferred Compensation Plan Fund",
+    "amountM": 1.4976,
+    "type": "spending"
+  },
+  {
+    "category": "State Trust Funds",
+    "fund": "State Treasurer's Administrative Fund",
+    "amountM": 16.32805,
+    "type": "spending"
+  },
+  {
+    "category": "State Trust Funds",
+    "fund": "State Treasurer's Capital Fund",
+    "amountM": 0.5,
+    "type": "spending"
+  },
+  {
+    "category": "State Trust Funds",
+    "fund": "Supreme Court Special State Projects Fund",
+    "amountM": 6.0,
+    "type": "spending"
+  }
+]
