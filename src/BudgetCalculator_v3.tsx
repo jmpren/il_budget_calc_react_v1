@@ -7,7 +7,6 @@ import DataFooter from "./components/DataFooter";
    Types & Helpers
    ========================= */
 type BudgetRow = { agency: string; division: string; source: string; amount: number };
-
 type DonutSlice = { name: string; amount: number; color: string; pct: number };
 
 const USD_FULL = (n: number) =>
@@ -33,9 +32,11 @@ const COLORS = [
 const colorByIndex = (i: number) => COLORS[i % COLORS.length];
 
 const DATA_URL =
-  import.meta.env.VITE_DATA_URL ||               // set for prod if you host JSON elsewhere
-  `${import.meta.env.BASE_URL}budget_latest.json`;  // local/public fallback
+  import.meta.env.VITE_DATA_URL ||
+  `${import.meta.env.BASE_URL}budget_latest.json`; // local/public fallback
 
+// NEW: base for hash links that works on GitHub Pages
+const BASE = import.meta.env.BASE_URL || "/";
 
 // Filter out agency-level totals / blank division lines
 const isLikelyTotalRow = (division: string) => {
@@ -54,31 +55,6 @@ const BudgetCalculator_v3: React.FC = () => {
   const [search, setSearch] = useState("");
   const [selectedAgency, setSelectedAgency] = useState<string | null>(null);
   const [donutMode, setDonutMode] = useState<"division" | "source">("division");
-
-  // Data Explorer state
-const [explorerOpen, setExplorerOpen] = useState(false);
-const [explorerQuery, setExplorerQuery] = useState("");
-
-// Rows shown in explorer (auto-filters to selected agency if set)
-const explorerRows = useMemo(() => {
-  const q = explorerQuery.trim().toLowerCase();
-  return rows.filter(r => {
-    if (selectedAgency && r.agency !== selectedAgency) return false;
-    if (!q) return true;
-    return (
-      r.agency.toLowerCase().includes(q) ||
-      r.division.toLowerCase().includes(q) ||
-      r.source.toLowerCase().includes(q)
-    );
-  });
-}, [rows, selectedAgency, explorerQuery]);
-
-// Explorer total
-const explorerTotal = useMemo(
-  () => explorerRows.reduce((s, r) => s + toNumber(r.amount), 0),
-  [explorerRows]
-);
-
 
   // Load & sanitize data
   useEffect(() => {
@@ -108,7 +84,7 @@ const explorerTotal = useMemo(
 
         setRows([...agg.values()]);
       } catch (err) {
-        console.warn("Failed to load /budget_v3.json; ensure it’s {agency, division, source, amount} in /public.", err);
+        console.warn("Failed to load budget_latest.json; ensure it’s {agency, division, source, amount} in /public.", err);
         setRows([]);
       } finally {
         setLoading(false);
@@ -213,14 +189,22 @@ const explorerTotal = useMemo(
           </div>
         </div>
 
-        {/* FULL-WIDTH Donut card — ABOVE the search, only after an agency is selected */}
+        {/* FULL-WIDTH Donut card — only after an agency is selected */}
         {selectedAgency && (
           <div className="bg-white rounded-xl border border-black/10 shadow-sm p-0">
             <div className="px-6 pt-6 flex items-start justify-between">
               <div>
-                <h3 className="text-base font-medium text-slate-900">{donutMode === "division" ? `Division breakdown — ${selectedAgency}` : `Funding sources — ${selectedAgency}`}</h3>
-                <p className="mt-1 text-sm leading-6 text-slate-600">Allocation with amounts and shares of the agency total.</p>
+                <h3 className="text-base font-medium text-slate-900">
+                  {donutMode === "division"
+                    ? `Division breakdown — ${selectedAgency}`
+                    : `Funding sources — ${selectedAgency}`}
+                </h3>
+                <p className="mt-1 text-sm leading-6 text-slate-600">
+                  Allocation with amounts and shares of the agency total.
+                </p>
               </div>
+
+              {/* Actions */}
               <div className="flex items-center gap-4">
                 <div className="flex gap-3 text-sm">
                   <button
@@ -236,6 +220,16 @@ const explorerTotal = useMemo(
                     Funding Sources
                   </button>
                 </div>
+
+                {/* NEW: deep link to Data Explorer for the selected agency */}
+                <a
+                  href={`${BASE}#/data?agency=${encodeURIComponent(selectedAgency)}`}
+                  className="text-sm underline"
+                  title="Open this agency in the Data Explorer"
+                >
+                  View in Data Explorer
+                </a>
+
                 <button
                   onClick={() => setSelectedAgency(null)}
                   className="inline-flex items-center gap-1 text-sm text-slate-600 hover:text-slate-900"
@@ -294,12 +288,29 @@ const explorerTotal = useMemo(
                     {donutData.map((item, i) => (
                       <li key={item.name + i} className="flex items-center justify-between px-4 py-3 gap-4">
                         <div className="flex items-center gap-3 min-w-0">
-                          <div className="h-6 border-l-[2.5px] pl-3 flex items-center" style={{ borderLeftColor: item.color }}>
+                          <div
+                            className="h-6 border-l-[2.5px] pl-3 flex items-center"
+                            style={{ borderLeftColor: item.color }}
+                          >
                             <span className="truncate">{item.name}</span>
                           </div>
+
+                          {/* NEW: per-division deep link (only when in Division mode) */}
+                          {donutMode === "division" && (
+                            <a
+                              href={`${BASE}#/data?agency=${encodeURIComponent(selectedAgency || "")}&division=${encodeURIComponent(item.name)}`}
+                              className="text-xs underline opacity-70 hover:opacity-100"
+                              title="Open this division in the Data Explorer"
+                              onClick={(e) => e.stopPropagation()} // prevent any parent click
+                            >
+                              view
+                            </a>
+                          )}
                         </div>
+
                         <span className="tabular-nums">
-                          {currencyFormatter(item.amount)} <span className="opacity-70">({(item.pct * 100).toFixed(1)}%)</span>
+                          {currencyFormatter(item.amount)}{" "}
+                          <span className="opacity-70">({(item.pct * 100).toFixed(1)}%)</span>
                         </span>
                       </li>
                     ))}
@@ -352,64 +363,7 @@ const explorerTotal = useMemo(
         {/* No division table (per request) */}
       </div>
 
-{/* Data Explorer */}
-<div className="bg-white border border-black/10 rounded-xl overflow-hidden">
-  <div className="px-4 py-3 border-b border-black/10 flex items-center justify-between">
-    <div className="flex items-center gap-3">
-      <span className="font-semibold">Data Explorer</span>
-      {selectedAgency && (
-        <span className="text-xs px-2 py-0.5 rounded bg-black/5">
-          Filtered to agency: {selectedAgency}
-        </span>
-      )}
-    </div>
-    <button
-      className="text-sm text-slate-600 hover:text-slate-900"
-      onClick={() => setExplorerOpen(v => !v)}
-    >
-      {explorerOpen ? "Hide" : "Show"}
-    </button>
-  </div>
-
-  {explorerOpen && (
-    <div className="p-4 space-y-3">
-      <div className="flex items-center gap-3">
-        <input
-          value={explorerQuery}
-          onChange={(e) => setExplorerQuery(e.target.value)}
-          placeholder="Search agency / division / source…"
-          className="w-full px-3 py-2 rounded border border-black/20 bg-white focus:outline-none focus:ring-2 focus:ring-[#4F6EF7]"
-        />
-        <div className="text-xs opacity-70 whitespace-nowrap">
-          Rows: {explorerRows.length.toLocaleString()} • Total: {USD_FULL(explorerTotal)}
-        </div>
-      </div>
-
-      <div className="border border-black/10 rounded">
-        <div className="grid grid-cols-12 px-3 py-2 text-xs font-semibold bg-[#f6f5f2] border-b border-black/10">
-          <div className="col-span-4">Agency</div>
-          <div className="col-span-5">Division</div>
-          <div className="col-span-2">Source</div>
-          <div className="col-span-1 text-right">Amount</div>
-        </div>
-        <div className="max-h-[50vh] overflow-auto text-sm">
-          {explorerRows.map((r, i) => (
-            <div key={i} className="grid grid-cols-12 px-3 py-2 border-b border-black/5">
-              <div className="col-span-4 pr-2 truncate" title={r.agency}>{r.agency}</div>
-              <div className="col-span-5 pr-2 truncate" title={r.division || "(Unspecified Division)"}>{r.division || "(Unspecified Division)"}</div>
-              <div className="col-span-2 pr-2 truncate" title={r.source || "(Unspecified Source)"}>{r.source || "(Unspecified Source)"}</div>
-              <div className="col-span-1 text-right tabular-nums">{currencyFormatter(toNumber(r.amount))}</div>
-            </div>
-          ))}
-          {explorerRows.length === 0 && (
-            <div className="px-3 py-6 text-sm opacity-70">No rows match.</div>
-          )}
-        </div>
-      </div>
-    </div>
-  )}
-</div>
-
+      {/* Footer at very bottom */}
       <DataFooter />
     </div>
   );

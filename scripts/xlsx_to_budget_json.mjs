@@ -47,7 +47,7 @@ for (let i = 2; i < args.length; i++) {
 const HEADER_ROW_1BASED = 3;          // headers on row 3
 const DATA_START_ROW_1BASED = 4;      // data begins row 4
 // Absolute column letters per your spec:
-const COL = { AGENCY: "E", DIVISION: "G", SOURCE: "J", FUNDS: "Q" };
+const COL = { AGENCY: "E", DIVISION: "G", SOURCE: "J", FUNDS: "Q", APPROPRIATION: "H" };
 
 // ---------- Load workbook ----------
 if (!fs.existsSync(inPath)) {
@@ -110,6 +110,7 @@ for (let r1 = DATA_START_ROW_1BASED; r1 <= range.e.r + 1; r1++) {
   const agency = String(get(`${COL.AGENCY}${r1}`) ?? "").trim();
   const division = String(get(`${COL.DIVISION}${r1}`) ?? "").trim();
   const source = String(get(`${COL.SOURCE}${r1}`) ?? "").trim();
+  const appropriation = COL.APPROPRIATION ? String(get(`${COL.APPROPRIATION}${r1}`) ?? "").trim() : "";
   const amtRaw = get(`${COL.FUNDS}${r1}`);
 
   // Skip completely blank rows
@@ -125,7 +126,7 @@ for (let r1 = DATA_START_ROW_1BASED; r1 <= range.e.r + 1; r1++) {
   const amount = parseAmount(amtRaw);
   if (!Number.isFinite(amount)) continue;
 
-  out.push({ agency, division, source, amount });
+  out.push({ agency, division, source, appropriation, amount });
   total += amount;
 }
 
