@@ -2,13 +2,13 @@
 // Usage:
 //   node scripts/xlsx_to_budget_json.mjs <input.xlsx> <output.json> [--sheet "Sheet Name" | --sheetIndex 0]
 //
-// Notes:
-// - Headers are on row 3; data starts row 4
-// - Column mapping (absolute letters):
-//     E = Agency, G = Division, J = Source, Q = Funds (amount)
-// - Skips blank rows and any row where Agency/Division/Source equals "Total"
-// - Dedupes by Agency|Division|Source
-// - Coerces amount to Number (strips commas/spaces)
+// Reads row-wise line items from a budget workbook and outputs JSON rows:
+//   { agency: string, division: string, source: string, amount: number }
+//
+// Changes vs previous version:
+// - ❌ Removed dedupe: keeps ALL rows (avoids dropping legit items that share A/D/S)
+// - ✅ Stronger amount parsing: handles $, commas, spaces, and ( ) negatives
+// - ✅ Logs row count and total sum at the end for quick validation
 
 import fs from "node:fs";
 import path from "node:path";
@@ -44,8 +44,9 @@ for (let i = 2; i < args.length; i++) {
 }
 
 // ---------- Config ----------
-const HEADER_ROW_1BASED = 3;
-const DATA_START_ROW_1BASED = HEADER_ROW_1BASED + 1;
+const HEADER_ROW_1BASED = 3;          // headers on row 3
+const DATA_START_ROW_1BASED = 4;      // data begins row 4
+// Absolute column letters per your spec:
 const COL = { AGENCY: "E", DIVISION: "G", SOURCE: "J", FUNDS: "Q" };
 
 // ---------- Load workbook ----------
@@ -59,8 +60,7 @@ let sheetName;
 if (sheetNameArg) {
   sheetName = sheetNameArg;
   if (!wb.Sheets[sheetName]) {
-    console.error(`Sheet named "${sheetName}" not found in workbook.`);
-    console.error("Available sheets:", wb.SheetNames.join(", "));
+    console.error(`Sheet named "${sheetName}" not found. Available: ${wb.SheetNames.join(", ")}`);
     process.exit(1);
   }
 } else if (sheetIndexArg != null) {
@@ -87,49 +87,72 @@ const get = (addr) => {
   return typeof v === "string" ? v.trim() : v;
 };
 
+// Parse amounts like "$1,234,567", " 1 234 ", "(12,345)" -> number
+const parseAmount = (raw) => {
+  if (raw === null || raw === undefined || raw === "") return NaN;
+  if (typeof raw === "number") return raw;
+  let s = String(raw).trim();
+  let negative = false;
+  if (s.startsWith("(") && s.endsWith(")")) { negative = true; s = s.slice(1, -1); }
+  s = s.replace(/[\s,$]/g, "");
+  const n = Number(s);
+  if (!Number.isFinite(n)) return NaN;
+  return negative ? -n : n;
+};
+
 const range = XLSX.utils.decode_range(ws["!ref"]);
 
-// ---------- Extract rows ----------
+// ---------- Extract rows (NO DEDUPE) ----------
 const out = [];
-const seen = new Set();
+let total = 0;
 
 for (let r1 = DATA_START_ROW_1BASED; r1 <= range.e.r + 1; r1++) {
   const agency = String(get(`${COL.AGENCY}${r1}`) ?? "").trim();
   const division = String(get(`${COL.DIVISION}${r1}`) ?? "").trim();
   const source = String(get(`${COL.SOURCE}${r1}`) ?? "").trim();
-  let amountRaw = get(`${COL.FUNDS}${r1}`);
+  const amtRaw = get(`${COL.FUNDS}${r1}`);
 
-  // Skip blank rows
-  const amountBlank = amountRaw === "" || amountRaw === null || amountRaw === undefined;
-  const rowBlank = !agency && !division && !source && amountBlank;
-  if (rowBlank) continue;
+  // Skip completely blank rows
+  const isAllBlank = !agency && !division && !source && (amtRaw === "" || amtRaw === null || amtRaw === undefined);
+  if (isAllBlank) continue;
 
-  // Skip "Total" lines in any key field
+  // Skip obvious Total rows in key fields
   if (/^total$/i.test(agency) || /^total$/i.test(division) || /^total$/i.test(source)) continue;
 
-  // Minimal fields required
+  // Require minimal fields
   if (!agency || !division || !source) continue;
 
-  // Coerce amount
-  if (typeof amountRaw === "string") {
-    amountRaw = amountRaw.replace(/[, ]/g, "");
-  }
-  const amount = Number(amountRaw);
+  const amount = parseAmount(amtRaw);
   if (!Number.isFinite(amount)) continue;
 
-  // Dedup key
-  const key = `${agency}|${division}|${source}`;
-  if (seen.has(key)) continue;
-  seen.add(key);
-
   out.push({ agency, division, source, amount });
+  total += amount;
 }
 
-// ---------- Write ----------
+// ---------- Write + summary ----------
 const outDir = path.dirname(outPath);
 if (!fs.existsSync(outDir)) fs.mkdirSync(outDir, { recursive: true });
 
+// write main data file
 fs.writeFileSync(outPath, JSON.stringify(out, null, 2));
+
+// --- NEW: write meta sidecar ---
+const meta = {
+  lastUpdated: new Date().toISOString().slice(0, 10), // "YYYY-MM-DD"
+  rowCount: out.length,
+  total: total,
+};
+// meta always goes next to your public assets
+const metaPath = path.resolve("public/budget_meta.json");
+const metaDir = path.dirname(metaPath);
+if (!fs.existsSync(metaDir)) fs.mkdirSync(metaDir, { recursive: true });
+fs.writeFileSync(metaPath, JSON.stringify(meta, null, 2));
+// --- END NEW ---
+
+const fmtUSD = (n) => n.toLocaleString("en-US", { style: "currency", currency: "USD", maximumFractionDigits: 0 });
+
 console.log(`[xlsx_to_budget_json] Sheet: ${sheetName}`);
 console.log(`[xlsx_to_budget_json] Rows out: ${out.length}`);
+console.log(`[xlsx_to_budget_json] Sum(amount): ${fmtUSD(total)}  (${total})`);
 console.log(`[xlsx_to_budget_json] Wrote: ${outPath}`);
+console.log(`[xlsx_to_budget_json] Meta: ${metaPath}`); // NEW log
