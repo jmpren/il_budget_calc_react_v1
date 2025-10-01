@@ -1,6 +1,7 @@
 import React, { useEffect, useMemo, useState } from "react";
 import { Search, BarChart3, XCircle } from "lucide-react";
 import { ResponsiveContainer, PieChart, Pie, Cell, Tooltip as RechartsTooltip } from "recharts";
+import DataFooter from "./components/DataFooter";
 
 /* =========================
    Types & Helpers
@@ -47,12 +48,37 @@ const isLikelyTotalRow = (division: string) => {
 /* =========================
    Component
    ========================= */
-const BudgetCalculator_v2: React.FC = () => {
+const BudgetCalculator_v3: React.FC = () => {
   const [rows, setRows] = useState<BudgetRow[]>([]);
   const [loading, setLoading] = useState(true);
   const [search, setSearch] = useState("");
   const [selectedAgency, setSelectedAgency] = useState<string | null>(null);
   const [donutMode, setDonutMode] = useState<"division" | "source">("division");
+
+  // Data Explorer state
+const [explorerOpen, setExplorerOpen] = useState(false);
+const [explorerQuery, setExplorerQuery] = useState("");
+
+// Rows shown in explorer (auto-filters to selected agency if set)
+const explorerRows = useMemo(() => {
+  const q = explorerQuery.trim().toLowerCase();
+  return rows.filter(r => {
+    if (selectedAgency && r.agency !== selectedAgency) return false;
+    if (!q) return true;
+    return (
+      r.agency.toLowerCase().includes(q) ||
+      r.division.toLowerCase().includes(q) ||
+      r.source.toLowerCase().includes(q)
+    );
+  });
+}, [rows, selectedAgency, explorerQuery]);
+
+// Explorer total
+const explorerTotal = useMemo(
+  () => explorerRows.reduce((s, r) => s + toNumber(r.amount), 0),
+  [explorerRows]
+);
+
 
   // Load & sanitize data
   useEffect(() => {
@@ -162,7 +188,7 @@ const BudgetCalculator_v2: React.FC = () => {
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center gap-3">
               <BarChart3 className="w-7 h-7 opacity-70" />
-              <h1 className="text-2xl font-bold">Illinois Budget Explorer (v2)</h1>
+              <h1 className="text-2xl font-bold">Illinois Budget Explorer</h1>
             </div>
           </div>
         </div>
@@ -325,8 +351,68 @@ const BudgetCalculator_v2: React.FC = () => {
 
         {/* No division table (per request) */}
       </div>
+
+{/* Data Explorer */}
+<div className="bg-white border border-black/10 rounded-xl overflow-hidden">
+  <div className="px-4 py-3 border-b border-black/10 flex items-center justify-between">
+    <div className="flex items-center gap-3">
+      <span className="font-semibold">Data Explorer</span>
+      {selectedAgency && (
+        <span className="text-xs px-2 py-0.5 rounded bg-black/5">
+          Filtered to agency: {selectedAgency}
+        </span>
+      )}
+    </div>
+    <button
+      className="text-sm text-slate-600 hover:text-slate-900"
+      onClick={() => setExplorerOpen(v => !v)}
+    >
+      {explorerOpen ? "Hide" : "Show"}
+    </button>
+  </div>
+
+  {explorerOpen && (
+    <div className="p-4 space-y-3">
+      <div className="flex items-center gap-3">
+        <input
+          value={explorerQuery}
+          onChange={(e) => setExplorerQuery(e.target.value)}
+          placeholder="Search agency / division / source…"
+          className="w-full px-3 py-2 rounded border border-black/20 bg-white focus:outline-none focus:ring-2 focus:ring-[#4F6EF7]"
+        />
+        <div className="text-xs opacity-70 whitespace-nowrap">
+          Rows: {explorerRows.length.toLocaleString()} • Total: {USD_FULL(explorerTotal)}
+        </div>
+      </div>
+
+      <div className="border border-black/10 rounded">
+        <div className="grid grid-cols-12 px-3 py-2 text-xs font-semibold bg-[#f6f5f2] border-b border-black/10">
+          <div className="col-span-4">Agency</div>
+          <div className="col-span-5">Division</div>
+          <div className="col-span-2">Source</div>
+          <div className="col-span-1 text-right">Amount</div>
+        </div>
+        <div className="max-h-[50vh] overflow-auto text-sm">
+          {explorerRows.map((r, i) => (
+            <div key={i} className="grid grid-cols-12 px-3 py-2 border-b border-black/5">
+              <div className="col-span-4 pr-2 truncate" title={r.agency}>{r.agency}</div>
+              <div className="col-span-5 pr-2 truncate" title={r.division || "(Unspecified Division)"}>{r.division || "(Unspecified Division)"}</div>
+              <div className="col-span-2 pr-2 truncate" title={r.source || "(Unspecified Source)"}>{r.source || "(Unspecified Source)"}</div>
+              <div className="col-span-1 text-right tabular-nums">{currencyFormatter(toNumber(r.amount))}</div>
+            </div>
+          ))}
+          {explorerRows.length === 0 && (
+            <div className="px-3 py-6 text-sm opacity-70">No rows match.</div>
+          )}
+        </div>
+      </div>
+    </div>
+  )}
+</div>
+
+      <DataFooter />
     </div>
   );
 };
 
-export default BudgetCalculator_v2;
+export default BudgetCalculator_v3;
