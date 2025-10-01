@@ -10,3 +10,4 @@ dist/
 !.env.example
 public/budget_*.json
 !public/budget_latest.json
+!public/budget_meta.json
